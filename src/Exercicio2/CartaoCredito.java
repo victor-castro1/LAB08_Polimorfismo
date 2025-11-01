@@ -1,6 +1,6 @@
 package Exercicio2;
 
-class CartaoCredito implements MetodoPagamento {
+public class CartaoCredito implements MetodoPagamento {
     private String numeroCartao;
     private String nomeTitular;
     private String validade;

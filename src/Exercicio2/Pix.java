@@ -12,7 +12,7 @@ public class Pix implements MetodoPagamento {
         if (valor > 0) {
             System.out.println("Processamento do pagamento via Pix");
             System.out.println("Chave Pix" + chavePix);
-            System.out.println("Valor: R$ %.2f\\n" + valor);
+            System.out.printf("Valor: R$ %.2f\n", valor);
             System.out.println("Pagamento Pix realizado ocm sucesso, ocm a chave: " + chavePix + ".");
             return true;
         } else {
