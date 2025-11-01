@@ -33,6 +33,6 @@ public class Triangulo extends Forma {
 
     @Override
     public void desenhar() {
-        System.out.println("Desenhando um Triangulo com a base = " + base + " e com a altura = " + altura);
+        System.out.println("Desenhando um Triangulo com a base = " + base + "cm e com a altura = " + altura + "cm");
     }
 }

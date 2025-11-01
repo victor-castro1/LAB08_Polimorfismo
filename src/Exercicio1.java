@@ -19,7 +19,7 @@ public class Exercicio1 {
 
             forma.desenhar();
             double area = forma.calcularArea();
-            System.out.printf("Área calculada: %.2f unidades²\n", area);
+            System.out.printf("Área calculada: %.2f cm²\n", area);
             System.out.println();
         }
 

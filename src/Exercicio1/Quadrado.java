@@ -22,6 +22,6 @@ public class Quadrado extends Forma {
     }
 
     public void desenhar() {
-        System.out.println("Desenhando um quadrado com o lado = " + lado);
+        System.out.println("Desenhando um quadrado com o lado = " + lado + "cm");
     }
 }
